@@ -40,11 +40,6 @@
   --px-lg: 1.5rem;
 }
 
-img {
-  width: 100%;
-  display: inline-block;
-}
-
 html {
   font-family: var(--ff-sans);
   font-weight: var(--fw-base);
@@ -99,6 +94,10 @@ ul[role='list'] {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
 
 @media (width >= 80em) {
   :root {
